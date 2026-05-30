@@ -1,3 +1,10 @@
+-- thanks ian49972
+writefile("KJ.rbxmx", game:HttpGet("https://github.com/ian49972/RBXMS/raw/refs/heads/main/KJ.rbxmx"))
+end
+
+writefile("ULT.mp3", game:HttpGet("https://github.com/ian49972/smth/raw/refs/heads/main/ULT.mp3"))
+writefile("ULT2.mp3", game:HttpGet("https://github.com/ian49972/smth/raw/refs/heads/main/ULT2.mp3"))
+
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
 local TweenService = game:GetService("TweenService")
